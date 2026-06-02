@@ -1,0 +1,81 @@
+# ============================================================================
+# EXCLUSIONES DE DATOS Y DATASETS
+# ============================================================================
+# Carpetas de datos raw y procesados (contendrán imágenes pesadas)
+data/raw/
+data/processed/
+
+# Extensiones de imágenes (formatos comunes)
+*.jpg
+*.jpeg
+*.png
+*.JPG
+*.PNG
+*.JPEG
+*.gif
+*.GIF
+*.bmp
+*.BMP
+*.tiff
+*.TIFF
+
+# ============================================================================
+# EXCLUSIONES DE PYTHON
+# ============================================================================
+# Directorios de caché de Jupyter
+.ipynb_checkpoints/
+
+# Directorios de caché de Python
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Archivos de distribuición
+*.egg-info/
+dist/
+build/
+
+# Entornos virtuales
+venv/
+ENV/
+env/
+.venv
+
+# ============================================================================
+# EXCLUSIONES DE IDE Y EDITORES
+# ============================================================================
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+.DS_Store
+
+# ============================================================================
+# EXCLUSIONES DE GIT Y CONTROL DE VERSIONES
+# ============================================================================
+.git/
+.gitignore
+
+# ============================================================================
+# ARCHIVOS GRANDES Y BINARIOS
+# ============================================================================
+*.pkl
+*.pickle
+*.h5
+*.pt
+*.pth
+*.ckpt
+*.model
+*.zip
+*.tar
+*.tar.gz
+*.rar
+
+# ============================================================================
+# ARCHIVOS DE CONFIGURACIÓN SENSIBLES
+# ============================================================================
+.env
+.env.local
+secrets.json
+config.local.yml
